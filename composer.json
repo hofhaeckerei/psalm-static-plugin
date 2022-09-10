@@ -1,0 +1,21 @@
+{
+    "name": "h4ck3r31/psalm-static-plugin",
+    "description": "Resolves static::class, self:class or parent::class references within PsalmPHP",
+    "type": "psalm-plugin",
+	"license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "H4ck3r31\\PsalmStaticPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oliver Hader",
+            "email": "oliver@typo3.org"
+        }
+    ],
+    "require": {
+		"ext-simplexml": "*",
+        "vimeo/psalm": "dev-master"
+	}
+}
